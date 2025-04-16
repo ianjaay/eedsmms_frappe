@@ -1,0 +1,87 @@
+{
+    "doctype": "Member",
+    "fields": [
+        {
+            "fieldname": "first_name",
+            "label": "Pr\u00e9nom",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "last_name",
+            "label": "Nom",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "date_of_birth",
+            "label": "Date de naissance",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "gender",
+            "label": "Genre",
+            "fieldtype": "Select",
+            "options": "Male\nFemale\nOther"
+        },
+        {
+            "fieldname": "address",
+            "label": "Adresse",
+            "fieldtype": "Small Text"
+        },
+        {
+            "fieldname": "phone",
+            "label": "T\u00e9l\u00e9phone",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "email",
+            "label": "Email",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "current_branch",
+            "label": "Branche actuelle",
+            "fieldtype": "Link",
+            "options": "Branch"
+        },
+        {
+            "fieldname": "local_group",
+            "label": "Groupe Local",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "unit",
+            "label": "Unit\u00e9",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "district",
+            "label": "District",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "region",
+            "label": "R\u00e9gion",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "enrollment_date",
+            "label": "Date d\u2019inscription",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "status",
+            "label": "Statut actuel",
+            "fieldtype": "Select",
+            "options": "Actif\nInactif\nEn attente"
+        },
+        {
+            "fieldname": "photo",
+            "label": "Photo",
+            "fieldtype": "Attach Image"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "doctype": "Organizational Unit",
+    "fields": [
+        {
+            "fieldname": "unit_name",
+            "label": "Nom",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "unit_type",
+            "label": "Type d\u2019unit\u00e9",
+            "fieldtype": "Select",
+            "options": "National\nR\u00e9gion\nDistrict\nGroupe Local\nUnit\u00e9"
+        },
+        {
+            "fieldname": "parent_unit",
+            "label": "Unit\u00e9 parent",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "leader",
+            "label": "Responsable",
+            "fieldtype": "Link",
+            "options": "Member"
+        },
+        {
+            "fieldname": "address",
+            "label": "Adresse",
+            "fieldtype": "Small Text"
+        }
+    ]
+}

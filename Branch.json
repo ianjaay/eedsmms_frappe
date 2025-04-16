@@ -1,0 +1,35 @@
+{
+    "doctype": "Branch",
+    "fields": [
+        {
+            "fieldname": "branch_name",
+            "label": "Nom de la branche",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "branch_code",
+            "label": "Code",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "min_age",
+            "label": "\u00c2ge min",
+            "fieldtype": "Int"
+        },
+        {
+            "fieldname": "max_age",
+            "label": "\u00c2ge max",
+            "fieldtype": "Int"
+        },
+        {
+            "fieldname": "color",
+            "label": "Couleur",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "description",
+            "label": "Description",
+            "fieldtype": "Text"
+        }
+    ]
+}

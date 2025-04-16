@@ -1,0 +1,39 @@
+{
+    "doctype": "Badge Progress",
+    "fields": [
+        {
+            "fieldname": "member",
+            "label": "Membre",
+            "fieldtype": "Link",
+            "options": "Member"
+        },
+        {
+            "fieldname": "badge",
+            "label": "Badge",
+            "fieldtype": "Link",
+            "options": "Badge"
+        },
+        {
+            "fieldname": "status",
+            "label": "Statut",
+            "fieldtype": "Select",
+            "options": "En cours\nTermin\u00e9\nValid\u00e9"
+        },
+        {
+            "fieldname": "start_date",
+            "label": "Date de d\u00e9but",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "end_date",
+            "label": "Date de fin",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "validated_by",
+            "label": "Valid\u00e9 par",
+            "fieldtype": "Link",
+            "options": "Member"
+        }
+    ]
+}

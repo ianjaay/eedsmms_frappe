@@ -1,0 +1,32 @@
+{
+    "doctype": "Badge",
+    "fields": [
+        {
+            "fieldname": "badge_name",
+            "label": "Nom du badge",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "branch",
+            "label": "Branche concern\u00e9e",
+            "fieldtype": "Link",
+            "options": "Branch"
+        },
+        {
+            "fieldname": "description",
+            "label": "Description",
+            "fieldtype": "Text"
+        },
+        {
+            "fieldname": "level",
+            "label": "Niveau",
+            "fieldtype": "Select",
+            "options": "D\u00e9butant\nInterm\u00e9diaire\nAvanc\u00e9"
+        },
+        {
+            "fieldname": "image",
+            "label": "Image",
+            "fieldtype": "Attach Image"
+        }
+    ]
+}

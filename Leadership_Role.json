@@ -1,0 +1,37 @@
+{
+    "doctype": "Leadership Role",
+    "fields": [
+        {
+            "fieldname": "member",
+            "label": "Membre",
+            "fieldtype": "Link",
+            "options": "Member"
+        },
+        {
+            "fieldname": "role_title",
+            "label": "Titre de r\u00f4le",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "assigned_unit",
+            "label": "Groupe / Unit\u00e9 assign\u00e9(e)",
+            "fieldtype": "Link",
+            "options": "Organizational Unit"
+        },
+        {
+            "fieldname": "start_date",
+            "label": "Date de d\u00e9but",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "end_date",
+            "label": "Date de fin",
+            "fieldtype": "Date"
+        },
+        {
+            "fieldname": "is_active",
+            "label": "Actif ?",
+            "fieldtype": "Check"
+        }
+    ]
+}
